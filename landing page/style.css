@@ -1,8 +1,8 @@
-* {
+/* * {
     border-color: red;
     border-style: solid; 
     border-radius: 1px;
-}
+} */
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -14,9 +14,6 @@
     width: auto;
     display:flex;
     justify-content: space-between;
-    border: 1px;
-    border-color: red;
-    border-style: solid;
     flex-wrap: nowrap;
     background-color: #1F2937;
 
@@ -32,10 +29,9 @@
 .headerLinks {
     display:flex;
     justify-content:flex-end;
-    align-items: flex-end;
+    align-items: center;
     margin-right: 100px;
-
-
+    gap: 10px;
 }
 
 .headerLinks p{
@@ -45,29 +41,31 @@
 
 .about { 
     display: flex;
-    border: 1px;
-    border-color: red;
-    border-style: solid; 
     background-color: #1F2937;
-    justify-content: space;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 
 .about p{
     color: #E5E7EB;
     font-size: 18px;
+    width: 500px;
 }
 
 .aboutText{
 font-size: 48px;
 color: #F9FAF8;
-font-weight: 800;
+font-weight: 700;
 
 }
 .aboutRight{
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    border-color: red;
+    border-style: solid; 
+    border-radius: 1px;
 }
 
 .title {
@@ -76,25 +74,58 @@ font-weight: 800;
 }
 
 .about img{
-    height: 30%;
-    width: 60%;
+    height: 200px;
+    width: 500px;
 }
 
 .middleDiv{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .middleDiv h2{
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
 }
 .imagesContainer{
     display:flex;
     justify-content: center;
+    gap: 40px;
 }
 
 .imagesContainer img{
-    height: 10%;
-    width: 10%;
-    margin: 10px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
 }
+
+.imageSubtext {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.imageSubtext p{
+    height: 150px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.quoteContainer{
+    display: flex;
+    background-color: #E5E7EB;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+ .quoteContainer p{
+    width: 1000px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+ }
