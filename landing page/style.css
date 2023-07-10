@@ -1,11 +1,12 @@
-/* * {
+* {
     border-color: red;
     border-style: solid; 
     border-radius: 1px;
-} */
+}
 
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -23,6 +24,8 @@
 
 .logo{
     margin-left: 100px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -46,8 +49,52 @@
     border-color: red;
     border-style: solid; 
     background-color: #1F2937;
+    justify-content: space;
+    align-items: center;
+}
+
+
+.about p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.aboutText{
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 800;
+
+}
+.aboutRight{
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
     color: #F9FAF8;
+    font-size: 24px;
+}
+
+.about img{
+    height: 30%;
+    width: 60%;
+}
+
+.middleDiv{
+    display: flex;
+    justify-content: center;
+}
+.middleDiv h2{
+    justify-content: center;
+    align-items: center;
+}
+.imagesContainer{
+    display:flex;
+    justify-content: center;
+}
+
+.imagesContainer img{
+    height: 10%;
+    width: 10%;
+    margin: 10px;
 }
