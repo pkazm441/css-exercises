@@ -129,3 +129,29 @@ font-weight: 700;
     font-style: italic;
     color: #1F2937;
  }
+
+ .bottomContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .bottomPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    gap: 50px;
+    background-color: #3882F6;
+    margin: 60px;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 60px;
+ }
